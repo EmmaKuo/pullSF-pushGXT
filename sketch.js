@@ -52,7 +52,7 @@ function branch(len, theta){
   rect(0,0,len*0.1,len);
   stroke(100);
   fill(4,153,255);
-  ellipse(-1,0,len*0.1,len*0.1);
+  ellipse(-1,0,len*0.1,len*0.15);
   noStroke();
   fill(204,153,255);
   rect(0, 20, len*0.05, len*0.05);
