@@ -4,10 +4,13 @@
 */
 
 function setup(){
-  createCanvas(1280,320);
+  //createCanvas(1280,320);
   background(320);
   stroke(100);
   fill(200);
+  canvas = createCanvas(windowWidth, windowHeight);
+  canvas.parent("sketch-container"); //move our canvas inside this HTML
+  rectMode(CENTER);
 }
 
 function draw(){
@@ -21,7 +24,8 @@ function drawFog(){
   push();
   fill(32, 16);
   noStroke();
-  rect(0,0,width,height);
+  rect(0,0,3960,2080);
+  //rectMode(CENTER);
 
   pop();
 }
@@ -60,4 +64,12 @@ function branch(len, theta){
     rect(0, 20, len*0.01, len*0.01); 
   }
   pop();
+}
+
+
+function windowResized() {
+
+  resizeCanvas(windowWidth, windowHeight);
+  
+
 }
