@@ -51,7 +51,7 @@ function branch(len, theta){
   stroke(100);
   rect(0,0,len*0.1,len);
   noStroke();
-  fill(204,153,255);
+  fill(255,53,55);
   rect(0, 20, len*0.05, len*0.05);
   translate(len,0); 
 
