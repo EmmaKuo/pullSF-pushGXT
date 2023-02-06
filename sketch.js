@@ -53,6 +53,8 @@ function branch(len, theta){
   stroke(100);
   fill(4,153,255);
   ellipse(-1,0,len*0.1,len*0.1);
+  fill(64,33,255);
+  triangle(0, 20, len*0.05, len*0.05,len*1,len*3)
   noStroke();
   fill(229,204,255);
   rect(0, 20, len*0.05, len*0.05);
