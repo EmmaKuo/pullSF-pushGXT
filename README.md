@@ -8,3 +8,5 @@ change purple to red
 adjust newAng,pls
 
 Add ellipse elements.
+
+add some triangle elements.pls
