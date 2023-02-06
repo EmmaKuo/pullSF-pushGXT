@@ -56,7 +56,7 @@ function branch(len, theta){
   translate(len,0); 
 
   if(len > 4.0){ 
-    let newAng = random(PI*0.25); 
+    let newAng = random(PI*1); 
     let newLen = len * random(0.4,0.8); 
     branch(len * random(0.4,0.8), - newAng);
     branch(len * random(0.4,0.8), newAng); 
